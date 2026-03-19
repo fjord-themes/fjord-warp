@@ -55,10 +55,6 @@ The theme includes:
 - Optimized background and foreground colors
 - Custom selection and cursor colors
 - Enhanced readability with proper contrast ratios
-## 📸 Preview
-
-![Fjord Warp Theme](https://raw.githubusercontent.com/fjord-theme/fjord/main/docs/images/colortest.png)
-
 
 ## 🔄 Updates
 
