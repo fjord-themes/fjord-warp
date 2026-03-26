@@ -40,7 +40,7 @@ A dusk-blue base with soft leaf-green accents, amber selections, and crisp blue/
 
 ```bash
 mkdir -p ~/.warp/themes/
-git clone https://github.com/fjord-themes/fjord-warp.git --depth 1 ~/.warp/themes/fjord-warp
+git clone https://git.jshuntley.com/fjord-theme/fjord-warp.git --depth 1 ~/.warp/themes/fjord-warp
 cp ~/.warp/themes/fjord-warp/themes/fjord.yaml ~/.warp/themes/fjord.yaml
 ```
 </details>
@@ -49,7 +49,7 @@ cp ~/.warp/themes/fjord-warp/themes/fjord.yaml ~/.warp/themes/fjord.yaml
 
 ```bash
 mkdir -p ${XDG_DATA_HOME:-$HOME/.local/share}/warp-terminal/themes/
-git clone https://github.com/fjord-themes/fjord-warp.git --depth 1 ${XDG_DATA_HOME:-$HOME/.local/share}/warp-terminal/themes/fjord-warp
+git clone https://git.jshuntley.com/fjord-theme/fjord-warp.git --depth 1 ${XDG_DATA_HOME:-$HOME/.local/share}/warp-terminal/themes/fjord-warp
 cp ${XDG_DATA_HOME:-$HOME/.local/share}/warp-terminal/themes/fjord-warp/themes/fjord.yaml \
    ${XDG_DATA_HOME:-$HOME/.local/share}/warp-terminal/themes/fjord.yaml
 ```
@@ -59,7 +59,7 @@ cp ${XDG_DATA_HOME:-$HOME/.local/share}/warp-terminal/themes/fjord-warp/themes/f
 
 ```powershell
 New-Item -Path "$env:APPDATA\warp\Warp\data\themes\" -ItemType Directory -Force
-git clone https://github.com/fjord-themes/fjord-warp.git --depth 1 "$env:APPDATA\warp\Warp\data\themes\fjord-warp"
+git clone https://git.jshuntley.com/fjord-theme/fjord-warp.git --depth 1 "$env:APPDATA\warp\Warp\data\themes\fjord-warp"
 Copy-Item "$env:APPDATA\warp\Warp\data\themes\fjord-warp\themes\fjord.yaml" `
           "$env:APPDATA\warp\Warp\data\themes\fjord.yaml"
 ```
@@ -79,7 +79,7 @@ The theme includes:
 
 ## 🔄 Updates
 
-This theme is automatically generated from [fjord-core](https://github.com/fjord-themes/fjord-core) and deployed on every release. For an overview of all supported platforms and the full color palette, visit the [Fjord theme page](https://github.com/fjord-themes/fjord).
+This theme is automatically generated from [fjord-core](https://git.jshuntley.com/fjord-theme/fjord-core) and deployed on every release. For an overview of all supported platforms and the full color palette, visit the [Fjord theme page](https://git.jshuntley.com/fjord-theme).
 ## ☕ Support My Work
 
 If you enjoy the Fjord theme and find it useful, consider supporting my work:
@@ -90,4 +90,4 @@ If you enjoy the Fjord theme and find it useful, consider supporting my work:
 MIT License - see [LICENSE](LICENSE) file for details.
 ## 🤝 Contributing
 
-For theme suggestions or issues, please open an issue on [fjord-core](https://github.com/fjord-themes/fjord-core). For an overview of the project, visit the [Fjord theme page](https://github.com/fjord-themes/fjord).
+For theme suggestions or issues, please open an issue on [fjord-core](https://git.jshuntley.com/fjord-theme/fjord-core). For an overview of the project, visit the [Fjord theme page](https://git.jshuntley.com/fjord-theme).
