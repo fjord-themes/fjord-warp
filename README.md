@@ -1,6 +1,6 @@
 # Fjord Theme for Warp
 
-A dusk-blue base with soft leaf-green accents, amber selections, and crisp blue/cyan separation for the Warp terminal.
+A dusk-blue base with soft leaf-green accents, cyan selections, and crisp blue/cyan separation for the Warp terminal.
 
 
 ## 🎨 Color Palette
