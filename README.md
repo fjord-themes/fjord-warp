@@ -41,7 +41,7 @@ A dusk-blue base with soft leaf-green accents, cyan selections, and crisp blue/c
 
 ```bash
 mkdir -p ~/.warp/themes/
-git clone https://git.jshuntley.com/fjord-theme/fjord-warp.git --depth 1 ~/.warp/themes/fjord-warp
+git clone https://github.com/fjord-themes/fjord-warp.git --depth 1 ~/.warp/themes/fjord-warp
 cp ~/.warp/themes/fjord-warp/themes/fjord.yaml ~/.warp/themes/fjord.yaml
 ```
 </details>
@@ -50,7 +50,7 @@ cp ~/.warp/themes/fjord-warp/themes/fjord.yaml ~/.warp/themes/fjord.yaml
 
 ```bash
 mkdir -p ${XDG_DATA_HOME:-$HOME/.local/share}/warp-terminal/themes/
-git clone https://git.jshuntley.com/fjord-theme/fjord-warp.git --depth 1 ${XDG_DATA_HOME:-$HOME/.local/share}/warp-terminal/themes/fjord-warp
+git clone https://github.com/fjord-themes/fjord-warp.git --depth 1 ${XDG_DATA_HOME:-$HOME/.local/share}/warp-terminal/themes/fjord-warp
 cp ${XDG_DATA_HOME:-$HOME/.local/share}/warp-terminal/themes/fjord-warp/themes/fjord.yaml \
    ${XDG_DATA_HOME:-$HOME/.local/share}/warp-terminal/themes/fjord.yaml
 ```
@@ -60,7 +60,7 @@ cp ${XDG_DATA_HOME:-$HOME/.local/share}/warp-terminal/themes/fjord-warp/themes/f
 
 ```powershell
 New-Item -Path "$env:APPDATA\warp\Warp\data\themes\" -ItemType Directory -Force
-git clone https://git.jshuntley.com/fjord-theme/fjord-warp.git --depth 1 "$env:APPDATA\warp\Warp\data\themes\fjord-warp"
+git clone https://github.com/fjord-themes/fjord-warp.git --depth 1 "$env:APPDATA\warp\Warp\data\themes\fjord-warp"
 Copy-Item "$env:APPDATA\warp\Warp\data\themes\fjord-warp\themes\fjord.yaml" `
           "$env:APPDATA\warp\Warp\data\themes\fjord.yaml"
 ```
