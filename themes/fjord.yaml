@@ -1,7 +1,7 @@
 name: Fjord
 accent: '#9DD99A'
 cursor: '#9DD99A'
-background: '#1B2532'
+background: '#1B2C32'
 foreground: '#E8F0F3'
 details: darker
 terminal_colors:
